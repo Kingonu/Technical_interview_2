@@ -50,8 +50,8 @@ POST 방식의 특징으로는 대표적으로 GET 방식과는 달리 body영�
 
 또한 POST로 데이터를 전송할때에는 Body영역 데이터 타입을 Header Content-Type에 명시를 해줘야 합니다. POST방식은 GET방식과는 달리 보내는 데이터를 URL를 통해 볼 수 없어 보안적으로 안전하다곤 하지만 다른 툴을 사용하여 POST영역의 데이터를 확인이 가능하기 때문에 안심해서는 안됩니다.
 
-ex)
 ```
+ex)
 HEADER 영역  
 
 Content-Type:application/json; charset=UTF-8
